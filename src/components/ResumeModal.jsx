@@ -12,7 +12,7 @@ const ResumeModal = ({ onClose }) => {
                 </button>
                 <h2 className="text-2xl font-bold mb-4 text-center">My Resume</h2>
                 <iframe
-                    src="/assets/Raghav_Kaashyap_resume.pdf"
+                    src="/assets/Raghav_Portfolio_Resume.pdf"
                     className="w-full h-96"
                     title="Resume"
                 />
