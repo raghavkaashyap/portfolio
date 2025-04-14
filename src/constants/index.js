@@ -223,6 +223,15 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
+        name: 'Principal Financial Group',
+        pos: 'Incoming Software Engineering Intern',
+        duration: 'May 2025',
+        title: "Incoming Software Engineering Intern (Infrastructure Services)",
+        icon: '/assets/principal_logo.png',
+        animation: 'victory',
+    },
+    {
+        id: 2,
         name: 'Iowa State University - Center for Experience in Learning and Teaching (CELT)',
         pos: 'Session Editor and Recorder III',
         duration: 'January 2024 - Present',
@@ -230,4 +239,5 @@ export const workExperiences = [
         icon: '/assets/iowastatelogo.png',
         animation: 'victory',
     },
+
 ];
