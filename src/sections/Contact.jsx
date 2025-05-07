@@ -74,7 +74,7 @@ const Contact = () => {
                 <div className="contact-container">
                     <h3 className="head-text">Let&#39;s Connect</h3>
                     <p className="text-lg text-white-600 mt-3">
-                        I’m always eager to connect with peers, professionals, and mentors. Whether you’d like to discuss a project, share opportunities, or collaborate, feel free to reach out!
+                        I'm always eager to connect with peers, professionals, and mentors. Whether you'd like to discuss a project, share opportunities, or collaborate, feel free to reach out!
                     </p>
 
                     <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
@@ -100,7 +100,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="ex., janedoe@gmail.com"
+                                placeholder="ex., hahaha@gmail.com"
                             />
                         </label>
 

@@ -8,13 +8,13 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/raghav-kaashyap-136445237/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/raghavkaashyap/" target="_blank" rel="noopener noreferrer">
                         <img src="/assets/linkedin.png" alt="LinkedIn" className="w-8 h-8" />
                     </a>
                 </div>
             </div>
 
-            <p className="text-white-500 text-center">© 2025 Raghav Kaashyap</p>
+            <p className="text-white-500 text-center" style={{paddingLeft: '8px'}} >Raghav Kaashyap</p>
         </footer>
     );
 };

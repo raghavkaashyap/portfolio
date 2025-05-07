@@ -15,7 +15,6 @@ const About = () => {
     return (
         <section className="c-space my-20" id="about">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5">
-                {/* Profile Section */}
                 <div className="grid-container p-5 hover:shadow-lg hover:shadow-purple-300 transition-all">
                     <img
                         src="assets/profile.png"
@@ -33,13 +32,9 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Tech Stack Section */}
                 <div className="grid-container p-5 bg-black flex flex-col items-center hover:shadow-lg hover:shadow-purple-300 transition-all">
-                    {/* Tech Stack Section */}
                     <div className="w-full max-w-screen-md mx-auto">
-                        {/* Tech Stack Icons */}
                         <div className="grid grid-cols-4 gap-4 mt-4 sm:w-full w-4/5 mx-auto">
-                            {/* Icons */}
                             <div className="flex flex-col items-center">
                                 <img
                                     src="assets/java-icon.png"
@@ -72,8 +67,6 @@ const About = () => {
                                 />
                                 <p className="mt-2 text-xs text-purple-300">SQL</p>
                             </div>
-
-                            {/* Web Technologies */}
                             <div className="flex flex-col items-center">
                                 <img
                                     src="assets/JavaScript-logo.png"
@@ -99,7 +92,6 @@ const About = () => {
                                 <p className="mt-2 text-xs text-purple-300">CSS</p>
                             </div>
 
-                            {/* Frameworks/Libraries */}
                             <div className="flex flex-col items-center">
                                 <img
                                     src="assets/spring.png"
@@ -108,7 +100,6 @@ const About = () => {
                                 />
                                 <p className="mt-2 text-xs text-purple-300">Spring Boot</p>
                             </div>
-                            {/* React (for both React and React Native) */}
                             <div className="flex flex-col items-center">
                                 <img
                                     src="assets/react.svg"
@@ -125,8 +116,6 @@ const About = () => {
                                 />
                                 <p className="mt-2 text-xs text-purple-300">Node.js</p>
                             </div>
-
-                            {/* Databases */}
                             <div className="flex flex-col items-center">
                                 <img
                                     src="assets/MySQL-Logo.png"
@@ -143,8 +132,6 @@ const About = () => {
                                 />
                                 <p className="mt-2 text-xs text-purple-300">SQLite</p>
                             </div>
-
-                            {/* MongoDB - Centered under the last column */}
                             <div className="flex flex-col items-center col-span-4">
                                 <img
                                     src="assets/mongodb-icon.png"
@@ -155,7 +142,6 @@ const About = () => {
                             </div>
                         </div>
 
-                        {/* Text Description */}
                         <div className="mt-6 sm:w-full w-4/5 mx-auto">
                             <p className="grid-headtext text-cyan-400 font-bold text-xl">Tech Stack</p>
                             <p className="grid-subtext text-gray-300 mt-2">
@@ -185,8 +171,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Contact Section */}
-                {/* Contact Section */}
                 <div className="grid-container p-5 hover:shadow-lg hover:shadow-purple-300 transition-all">
                     <img
                         src="assets/grid4.png"
@@ -206,7 +190,7 @@ const About = () => {
                             <a href="https://github.com/raghavkaashyap" target="_blank" rel="noopener noreferrer">
                                 <img src="assets/github.svg" alt="GitHub" className="w-8 h-8"/>
                             </a>
-                            <a href="https://www.linkedin.com/in/raghav-kaashyap-136445237/" target="_blank"
+                            <a href="https://www.linkedin.com/in/raghavkaashyap/" target="_blank"
                                rel="noopener noreferrer">
                                 <img src="assets/linkedin.png" alt="LinkedIn" className="w-8 h-8"/>
                             </a>
