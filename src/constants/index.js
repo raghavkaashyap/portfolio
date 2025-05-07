@@ -243,7 +243,7 @@ export const workExperiences = [
         id: 3,
         name: 'Iowa State University - Center for Experience in Learning and Teaching (CELT)',
         pos: 'Session Editor and Recorder III',
-        duration: 'January 2024 - Present',
+        duration: 'January 2024 - May 2025',
         title: "Collaborated with the media production team to edit over 100 audio and visual recordings of lectures, ensuring they met university standards for course delivery. I also recorded 30+ lectures, working closely with instructors to ensure smooth content flow and high-quality recordings. This role involved effective communication, technical editing, and process improvement to enhance the overall production efficiency.",
         icon: '/assets/iowastatelogo.png',
         animation: 'victory',
