@@ -235,7 +235,7 @@ export const workExperiences = [
         name: 'Principal Financial Group',
         pos: 'Software Engineer Intern',
         duration: 'May 2025',
-        title: "Incoming Software Engineer Intern (Infrastructure Services)",
+        title: "Software Engineer Intern (Information Services)",
         icon: '/assets/principal_logo.png',
         animation: 'victory',
     },
