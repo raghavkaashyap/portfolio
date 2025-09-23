@@ -232,10 +232,10 @@ export const workExperiences = [
     },
     {
         id: 2,
-        name: 'Iowa State University - College of Liberal Arts and Sciences',
+        name: 'Iowa State University - College of Liberal Arts and Sciences (D4 NRT)',
         pos: 'Undergraduate Research Assistant',
         duration: 'August 2025 - Present',
-        title: "AI & Data Science",
+        title: "AI/ML & Data Science",
         icon: '/assets/iowastatelogo.png',
         animation: 'victory',
     },
