@@ -24,7 +24,7 @@ const Home = () => {
                     Hi, I'm Raghav <span className="waving-hand">👋</span>
                 </p>
                 <p className="hero_tag text-gray_gradient sm:text-lg text-base">
-                    I'm a sophomore at Iowa State University, passionate about coding and solving problems
+                    I'm a junior at Iowa State University, passionate about coding and solving problems
                 </p>
             </div>
 
