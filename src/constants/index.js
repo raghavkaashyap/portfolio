@@ -244,7 +244,7 @@ export const workExperiences = [
         name: 'Principal Financial Group',
         pos: 'Software Engineer Intern',
         duration: 'May 2025 - August 2025',
-        title: "Security, Integration, Development (Full-Stack Development)",
+        title: "Workspace Services - SID (Full-Stack Development)",
         icon: '/assets/principal_logo.png',
         animation: 'victory',
     },
