@@ -184,6 +184,32 @@ export const myProjects = [
         ]
     },
     {
+        "title": "Bomb Detection Robot",
+        "desc": "An autonomous bomb detection robot programmed in C, designed to identify hazardous objects using onboard sensors, simulate response actions, and navigate a physical test environment. It uses sensor polling, motor control logic, and decision-making algorithms to enable dynamic obstacle avoidance and real-time threat localization. The project emphasizes embedded systems development and physical system integration.",
+        "subdesc": "Built for a constrained embedded environment with tight control loops and deterministic behavior. Features modular sensor drivers, debounced digital inputs, PWM-based motor control, and a finite-state machine for threat scanning, approach, and avoidance routines. Logged telemetry was used to tune thresholds and improve path stability.",
+        "href": "",
+        "texture": "/textures/project/project4.mp4",
+        "logo": "/assets/roomba.png",
+        "logoStyle": {
+            "backgroundColor": "white",
+            "border": "0.2px solid rgba(208, 213, 221, 1)",
+            "boxShadow": "0px 0px 60px 0px rgba(102, 131, 237, 0.3)"
+        },
+        "spotlight": "/assets/spotlight4.png",
+        "tags": [
+            {
+                "id": 1,
+                "name": "C",
+                "path": "/assets/c-icon.png"
+            },
+            {
+                "id": 2,
+                "name": "Python",
+                "path": "/assets/python-icon.png"
+            }
+        ]
+    },
+    {
         "title": "Memory Game",
         "desc": "The Memory Game is a console-based challenge that tests players' memory and reaction skills. Built using the C programming language, this game presents a fun and engaging way to exercise cognitive abilities. Players are presented with a series of randomly selected shapes, such as triangles, squares, diamonds, and X's, each displayed within a circle. The objective is simple: memorize and replicate the sequence of shapes presented by the game. As the game progresses, the sequences grow longer, increasing the challenge.\n" +
             "\n" +
