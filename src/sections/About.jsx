@@ -26,7 +26,7 @@ const About = () => {
                         <p className="grid-subtext">
                             I'm a Software Engineering junior at Iowa State University with a minor in Artificial Intelligence. I'm passionate about coding and
                             software development. I'm driven by the challenge of solving problems and creating
-                            innovative solutions that make a real impact. Through my coursework and personal projects, I
+                            innovative solutions that make a real impact. Through my coursework, internships, and personal projects, I
                             continually strive to improve my skills and stay curious about new technologies.
                         </p>
                     </div>
