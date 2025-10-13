@@ -87,7 +87,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="ex., Jane Doe"
+                                placeholder="ex., Raghav Kaashyap"
                             />
                         </label>
 
