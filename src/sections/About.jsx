@@ -182,7 +182,7 @@ const About = () => {
                         <div className="copy-container flex justify-center items-center gap-2" onClick={handleCopy}>
                             <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>
                             <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                                raghav.kaashyap@gmail.com
+                                &#114;&#097;&#103;&#104;&#097;&#118;&#046;&#107;&#097;&#097;&#115;&#104;&#121;&#097;&#112;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
                             </p>
                         </div>
                         <p className="grid-subtext text-center">Connect with me</p>
@@ -205,8 +205,3 @@ const About = () => {
 };
 
 export default About;
-
-
-
-
-
