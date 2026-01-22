@@ -132,13 +132,21 @@ const About = () => {
                                 />
                                 <p className="mt-2 text-xs text-purple-300">SQLite</p>
                             </div>
-                            <div className="flex flex-col items-center col-span-4">
+                            <div className="flex flex-col items-center col-span-2">
                                 <img
                                     src="assets/mongodb-icon.png"
                                     alt="MongoDB"
                                     className="w-10 h-10 rounded-lg transition-shadow duration-300 hover:shadow-lg hover:shadow-purple-400"
                                 />
                                 <p className="mt-2 text-xs text-purple-300">MongoDB</p>
+                            </div>
+                            <div className="flex flex-col items-center col-span-2">
+                                <img
+                                    src="assets/aws-icon.png"
+                                    alt="AWS"
+                                    className="w-10 h-10 rounded-lg transition-shadow duration-300 hover:shadow-lg hover:shadow-purple-400"
+                                />
+                                <p className="mt-2 text-xs text-purple-300">AWS</p>
                             </div>
                         </div>
 
