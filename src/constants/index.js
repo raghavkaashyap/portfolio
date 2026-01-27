@@ -252,7 +252,7 @@ export const workExperiences = [
         name: 'John Deere',
         pos: 'Student Software Engineer',
         duration: 'August 2025 - Present',
-        title: "Part-Time Student Software Engineer (Cloud Security)",
+        title: "Cloud Security",
         icon: '/assets/JD_logo.png',
         animation: 'victory',
     },
