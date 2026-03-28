@@ -24,25 +24,18 @@ const Navbar = ({ isNeonPulseOn, onToggleNeonPulse }) => {
         <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
-                    <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
+                    <a
+                        href="#home"
+                        onClick={onToggleNeonPulse}
+                        className={`font-bold text-xl transition-colors ${
+                            isNeonPulseOn ? 'text-cyan-300' : 'text-neutral-400 hover:text-white'
+                        }`}
+                        title="Click to toggle Neon Mode"
+                    >
                         Raghav
                     </a>
 
                     <div className="flex items-center gap-3">
-                        <button
-                            type="button"
-                            onClick={onToggleNeonPulse}
-                            className={`rounded-md border px-3 py-1 text-xs sm:text-sm transition-colors ${
-                                isNeonPulseOn
-                                    ? 'border-cyan-300 bg-cyan-500/20 text-cyan-200'
-                                    : 'border-neutral-500 bg-transparent text-neutral-300 hover:text-white'
-                            }`}
-                            title="Toggle Neon Mode (Shift+K)"
-                            aria-label="Toggle neon mode"
-                        >
-                            Neon: {isNeonPulseOn ? 'On' : 'Off'}
-                        </button>
-
                         <button
                             onClick={toggleMenu}
                             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
@@ -56,8 +49,6 @@ const Navbar = ({ isNeonPulseOn, onToggleNeonPulse }) => {
                         <NavItems></NavItems>
                     </nav>
                 </div>
-
-
             </div>
             <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
                 <nav className="p-5">
