@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Navbar from "./sections/Navbar.jsx";
 import Home from "./sections/Home.jsx";
 import About from "./sections/About.jsx";
@@ -13,6 +13,7 @@ const NEON_STORAGE_KEY = 'neon-mode-enabled';
 const App = () => {
     const [eggToast, setEggToast] = useState('');
     const [showEggToast, setShowEggToast] = useState(false);
+    const toastTimerRef = useRef();
     const [isNeonPulseOn, setIsNeonPulseOn] = useState(() => {
         try {
             return localStorage.getItem(NEON_STORAGE_KEY) === 'true';
@@ -29,16 +30,19 @@ const App = () => {
         }
     }, [isNeonPulseOn]);
 
+    const triggerToast = (message) => {
+        setEggToast(message);
+        setShowEggToast(true);
+        clearTimeout(toastTimerRef.current);
+        toastTimerRef.current = setTimeout(() => setShowEggToast(false), 3600);
+    };
+
+    useEffect(() => {
+        return () => clearTimeout(toastTimerRef.current);
+    }, []);
+
     useEffect(() => {
         let recentKeys = [];
-        let hideToastTimer;
-
-        const triggerToast = (message) => {
-            setEggToast(message);
-            setShowEggToast(true);
-            clearTimeout(hideToastTimer);
-            hideToastTimer = setTimeout(() => setShowEggToast(false), 3600);
-        };
 
         const onKeyDown = (event) => {
             const key = event.key.toLowerCase();
@@ -64,10 +68,19 @@ const App = () => {
         window.addEventListener('keydown', onKeyDown);
 
         return () => {
-            clearTimeout(hideToastTimer);
             window.removeEventListener('keydown', onKeyDown);
         };
     }, []);
+
+    const handleNavbarNeonToggle = () => {
+        setIsNeonPulseOn((prev) => {
+            const next = !prev;
+            if (next) {
+                triggerToast('Neon mode activated.');
+            }
+            return next;
+        });
+    };
 
     return (
         <main
@@ -76,7 +89,7 @@ const App = () => {
         >
             <Navbar
                 isNeonPulseOn={isNeonPulseOn}
-                onToggleNeonPulse={() => setIsNeonPulseOn((prev) => !prev)}
+                onToggleNeonPulse={handleNavbarNeonToggle}
             ></Navbar>
             <Home></Home>
             <About></About>
