@@ -76,7 +76,7 @@ const Projects = () => {
                             className="flex items-center gap-2 cursor-pointer text-white-600 hover:shadow-lg hover:shadow-purple-300 p-2 transition-all rounded-lg"
                             href={currentProject.href}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                         >
                             <p>Source Code</p>
                             <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
@@ -99,4 +99,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
