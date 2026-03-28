@@ -8,7 +8,7 @@ import CanvasLoader from '../components/CanvasLoader.jsx';
 import ResumeModal from '../components/ResumeModal.jsx';
 import GlowingCrystal from '../components/GlowingCrystal.jsx';
 import GlowingRings from '../components/GlowingRings.jsx';
-import Asteroids from '../components/Asteroids.jsx'; // New Import
+import Asteroids from '../components/Asteroids.jsx';
 
 const Home = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,7 +21,7 @@ const Home = () => {
         <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full mx-auto flex flex-col mt-28 text-center c-space gap-3">
                 <p className="sm:text-3xl text-2xl font-bold text-white">
-                    Hi, I'm Raghav <span className="waving-hand">👋</span>
+                    Hi, I'm Raghav <span className="waving-hand" title="Tip: keyboard secrets exist.">👋</span>
                 </p>
                 <p className="hero_tag text-gray_gradient sm:text-lg text-base">
                     I'm a junior at Iowa State University, passionate about coding and solving problems
@@ -64,4 +64,3 @@ const Home = () => {
 };
 
 export default Home;
-
