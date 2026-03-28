@@ -29,39 +29,6 @@ export const navLinks = [
 export const myProjects = [
 
     {
-        "title": "NutriNavigator",
-        "desc": "Nutri Navigator is a crowd-sourced calorie-tracking mobile application developed to assist users in managing their nutrition and making informed dietary decisions. Built with a backend powered by Spring Boot, a front-end in Android Studio, and a MySQL database, this app offers a wide range of features to support users in tracking their daily calorie intake, creating personalized meal plans, and exploring a recipe database with detailed nutritional information. The app also fosters community engagement through messaging and enables users to connect, share recipes, and interact with others based on dietary preferences.\n" +
-            "\n" +
-            "A central feature of Nutri Navigator is calorie tracking, which allows users to log their meals and track their progress towards their nutritional goals. Meal planning tools further support users by letting them organize their daily meals, while dietary restrictions ensure that users can find recipes that fit their specific needs. Push notifications, enabled via WebSockets, keep users engaged by providing reminders and real-time updates about their meal plans and recipe suggestions.",
-        "subdesc": "The app features an extensive recipe search, where users can browse a curated database of recipes and filter based on specific dietary restrictions or allergens. Users can also rate recipes and save their favorites for easy access. The messaging feature allows users to communicate with others, share meal tips, and create communities for group meal planning. The app is designed with multiple user roles (user, moderator, admin) to provide flexibility in managing content and interactions within the platform.",
-        "href": "https://github.com/raghavkaashyap/NutriNavigator",
-        "texture": "/textures/project/project1.mp4",
-        "logo": "/assets/NutriNavigator.png",
-        "logoStyle": {
-            "backgroundColor": "white",
-            "border": "0.2px solid rgba(208, 213, 221, 1)",
-            "boxShadow": "0px 0px 60px 0px rgba(237, 149, 36, 0.3)"
-        },
-        "spotlight": "/assets/spotlight1.png",
-        "tags": [
-            {
-                "id": 1,
-                "name": "Spring Boot",
-                "path": "/assets/spring.png"
-            },
-            {
-                "id": 2,
-                "name": "Android Studio",
-                "path": "/assets/androidstudio.png"
-            },
-            {
-                "id": 3,
-                "name": "MySQL",
-                "path": "/assets/MySQL-Logo.png"
-            }
-        ]
-    },
-    {
         "title": "Utilities Spend Tracker",
         "desc": "Utilities Spend Tracker is a full-stack web application designed to simplify the management of monthly utility expenses, including Water, Electricity, Gas, and Internet. Built using React for the frontend, Spring Boot for the backend, and MySQL for data storage, the application streamlines the process of tracking and analyzing utility spending. Users can upload their utility bills in PDF format, and the app employs Apache Tika to automatically parse and extract relevant data from these documents, eliminating the need for manual entry.\n" +
             "\n" +
@@ -86,6 +53,39 @@ export const myProjects = [
                 "id": 2,
                 "name": "ReactJS",
                 "path": "/assets/react.svg"
+            },
+            {
+                "id": 3,
+                "name": "MySQL",
+                "path": "/assets/MySQL-Logo.png"
+            }
+        ]
+    },
+    {
+        "title": "NutriNavigator",
+        "desc": "Nutri Navigator is a crowd-sourced calorie-tracking mobile application developed to assist users in managing their nutrition and making informed dietary decisions. Built with a backend powered by Spring Boot, a front-end in Android Studio, and a MySQL database, this app offers a wide range of features to support users in tracking their daily calorie intake, creating personalized meal plans, and exploring a recipe database with detailed nutritional information. The app also fosters community engagement through messaging and enables users to connect, share recipes, and interact with others based on dietary preferences.\n" +
+            "\n" +
+            "A central feature of Nutri Navigator is calorie tracking, which allows users to log their meals and track their progress towards their nutritional goals. Meal planning tools further support users by letting them organize their daily meals, while dietary restrictions ensure that users can find recipes that fit their specific needs. Push notifications, enabled via WebSockets, keep users engaged by providing reminders and real-time updates about their meal plans and recipe suggestions.",
+        "subdesc": "The app features an extensive recipe search, where users can browse a curated database of recipes and filter based on specific dietary restrictions or allergens. Users can also rate recipes and save their favorites for easy access. The messaging feature allows users to communicate with others, share meal tips, and create communities for group meal planning. The app is designed with multiple user roles (user, moderator, admin) to provide flexibility in managing content and interactions within the platform.",
+        "href": "https://github.com/raghavkaashyap/NutriNavigator",
+        "texture": "/textures/project/project1.mp4",
+        "logo": "/assets/NutriNavigator.png",
+        "logoStyle": {
+            "backgroundColor": "white",
+            "border": "0.2px solid rgba(208, 213, 221, 1)",
+            "boxShadow": "0px 0px 60px 0px rgba(237, 149, 36, 0.3)"
+        },
+        "spotlight": "/assets/spotlight1.png",
+        "tags": [
+            {
+                "id": 1,
+                "name": "Spring Boot",
+                "path": "/assets/spring.png"
+            },
+            {
+                "id": 2,
+                "name": "Android Studio",
+                "path": "/assets/androidstudio.png"
             },
             {
                 "id": 3,
