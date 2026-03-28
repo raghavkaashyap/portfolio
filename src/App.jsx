@@ -104,6 +104,11 @@ const App = () => {
         };
     }, []);
 
+    useEffect(() => {
+        document.body.classList.toggle('theme-candyland-body', isCandylandModeOn);
+        return () => document.body.classList.remove('theme-candyland-body');
+    }, [isCandylandModeOn]);
+
     const handleNavbarNeonToggle = () => {
         setIsNeonPulseOn((prev) => {
             const next = !prev;
@@ -114,13 +119,11 @@ const App = () => {
         });
     };
 
-    const activeThemeFilter = isCandylandModeOn
-        ? 'saturate(2.3) contrast(1.18) brightness(1.15) hue-rotate(-28deg)'
-        : isArcadeModeOn
-            ? 'contrast(1.45) saturate(1.85) hue-rotate(155deg) brightness(1.08)'
-            : isNeonPulseOn
-                ? 'hue-rotate(125deg) saturate(1.2)'
-                : undefined;
+    const activeThemeFilter = isArcadeModeOn
+        ? 'contrast(1.45) saturate(1.85) hue-rotate(155deg) brightness(1.08)'
+        : isNeonPulseOn
+            ? 'hue-rotate(125deg) saturate(1.2)'
+            : undefined;
 
     const arcadeOverlayStyle = {
         backgroundImage: `
@@ -139,27 +142,16 @@ const App = () => {
         opacity: 0.34,
     };
 
-    const candylandOverlayStyle = {
-        backgroundImage: `
-            radial-gradient(circle at 12% 18%, rgba(255, 88, 173, 0.32), transparent 36%),
-            radial-gradient(circle at 82% 20%, rgba(255, 210, 70, 0.34), transparent 38%),
-            radial-gradient(circle at 25% 82%, rgba(130, 255, 165, 0.34), transparent 42%),
-            radial-gradient(circle at 78% 78%, rgba(120, 195, 255, 0.36), transparent 40%)
-        `,
-        mixBlendMode: 'screen',
-        opacity: 0.48,
-    };
-
     return (
         <main
-            className="max-w-7xl mx-auto transition-all duration-500"
+            className={`max-w-7xl mx-auto transition-all duration-500 ${isCandylandModeOn ? 'theme-candyland' : ''}`}
             style={activeThemeFilter ? { filter: activeThemeFilter } : undefined}
         >
             <Navbar
                 isNeonPulseOn={isNeonPulseOn}
                 onToggleNeonPulse={handleNavbarNeonToggle}
             ></Navbar>
-            <Home></Home>
+            <Home isCandylandModeOn={isCandylandModeOn}></Home>
             <About></About>
             <Projects></Projects>
             <Experience></Experience>
@@ -170,14 +162,6 @@ const App = () => {
                 <div
                     className="pointer-events-none fixed inset-0 z-40"
                     style={arcadeOverlayStyle}
-                    aria-hidden="true"
-                />
-            )}
-
-            {isCandylandModeOn && (
-                <div
-                    className="pointer-events-none fixed inset-0 z-40"
-                    style={candylandOverlayStyle}
                     aria-hidden="true"
                 />
             )}
