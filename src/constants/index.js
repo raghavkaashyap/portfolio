@@ -234,6 +234,99 @@ export const myProjects = [
     }
 ]
 
+export const relevantCoursework = [
+    {
+        id: 1,
+        courseId: "MATH 1660",
+        name: "Calculus II"
+    },
+    {
+        id: 2,
+        courseId: "MATH 2670",
+        name: "Elementary Differential Equations and Laplace Transforms"
+    },
+    {
+        id: 3,
+        courseId: "STAT3300",
+        name: "Probability and Statistics for Computer Science"
+    },
+    {
+        id: 4,
+        courseId: "SE 1850",
+        name: "Problem Solving in Software Engineering"
+    },
+    {
+        id: 5,
+        courseId: "SE 1860",
+        name: "Problem Solving in Software Engineering II"
+    },
+    {
+        id: 6,
+        courseId: "COMS 2270",
+        name:"Introduction to Object-Oriented Programming"
+    },
+    {
+        id: 7,
+        courseId: "COMS 2280",
+        name: "Introduction to Data Structures"
+    },
+    {
+        id: 8,
+        courseId: "CPRE 2810",
+        name: "Digital Logic"
+    },
+    {
+        id: 9,
+        courseId: "SE 3090",
+        name: "Software Development Practices"
+    },
+    {
+        id: 10,
+        courseId: "CPRE 3100",
+        name: "Theoretical Foundations of Computer Engineering (Discrete Math)"
+    },
+    {
+        id: 11,
+        courseId: "SE 3190",
+        name: "Construction of User Interfaces"
+    },
+    {
+        id: 12,
+        courseId: "CPRE 2880",
+        name: "Embedded Systems I"
+    },
+    {
+        id: 13,
+        courseId: "SE 3170",
+        name: "Introduction to Software Testing"
+    },
+    {
+        id: 14,
+        courseId: "COMS 3210",
+        name: "Introduction to Computer Architecture and Machine Level Programming"
+    },
+    {
+        id: 15,
+        courseId: "SE 3390",
+        name: "Software Architecture and Design"
+    },
+    {
+        id: 16,
+        courseId: "COMS 3110",
+        name: "Introduction to the Design and Analysis of Algorithms"
+    },
+    {
+        id: 17,
+        courseId: "COMS 3520",
+        name: "Introduction to Operating Systems"
+    },
+    {
+        id: 18,
+        courseId: "COMS 3630",
+        name: "Introduction to Database Management Systems"
+    },
+]
+
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
