@@ -247,88 +247,88 @@ export const relevantCoursework = [
     },
     {
         id: 2,
-        courseId: "MATH 2670",
-        name: "Elementary Differential Equations and Laplace Transforms"
-    },
-    {
-        id: 3,
-        courseId: "STAT3300",
-        name: "Probability and Statistics for Computer Science"
-    },
-    {
-        id: 4,
         courseId: "SE 1850",
         name: "Problem Solving in Software Engineering"
     },
     {
-        id: 5,
+        id: 3,
         courseId: "SE 1860",
         name: "Problem Solving in Software Engineering II"
     },
     {
-        id: 6,
+        id: 4,
         courseId: "COMS 2270",
-        name:"Introduction to Object-Oriented Programming"
+        name: "Introduction to Object-Oriented Programming"
     },
     {
-        id: 7,
+        id: 5,
         courseId: "COMS 2280",
         name: "Introduction to Data Structures"
     },
     {
-        id: 8,
+        id: 6,
         courseId: "CPRE 2810",
         name: "Digital Logic"
     },
     {
-        id: 9,
-        courseId: "SE 3090",
-        name: "Software Development Practices"
-    },
-    {
-        id: 10,
-        courseId: "CPRE 3100",
-        name: "Theoretical Foundations of Computer Engineering (Discrete Math)"
-    },
-    {
-        id: 11,
-        courseId: "SE 3190",
-        name: "Construction of User Interfaces"
-    },
-    {
-        id: 12,
+        id: 7,
         courseId: "CPRE 2880",
         name: "Embedded Systems I"
     },
     {
-        id: 13,
-        courseId: "SE 3170",
-        name: "Introduction to Software Testing"
+        id: 8,
+        courseId: "CPRE 3100",
+        name: "Theoretical Foundations of Computer Engineering (Discrete Math)"
     },
     {
-        id: 14,
-        courseId: "COMS 3210",
-        name: "Introduction to Computer Architecture and Machine Level Programming"
-    },
-    {
-        id: 15,
-        courseId: "SE 3390",
-        name: "Software Architecture and Design"
-    },
-    {
-        id: 16,
+        id: 9,
         courseId: "COMS 3110",
         name: "Introduction to the Design and Analysis of Algorithms"
     },
     {
-        id: 17,
+        id: 10,
+        courseId: "COMS 3210",
+        name: "Introduction to Computer Architecture and Machine Level Programming"
+    },
+    {
+        id: 11,
+        courseId: "SE 3090",
+        name: "Software Development Practices"
+    },
+    {
+        id: 12,
+        courseId: "SE 3170",
+        name: "Introduction to Software Testing"
+    },
+    {
+        id: 13,
+        courseId: "SE 3190",
+        name: "Construction of User Interfaces"
+    },
+    {
+        id: 14,
         courseId: "COMS 3520",
         name: "Introduction to Operating Systems"
     },
     {
-        id: 18,
+        id: 15,
         courseId: "COMS 3630",
         name: "Introduction to Database Management Systems"
+    },
+    {
+        id: 16,
+        courseId: "MATH 2670",
+        name: "Elementary Differential Equations and Laplace Transforms"
+    },
+    {
+        id: 17,
+        courseId: "STAT 3300",
+        name: "Probability and Statistics for Computer Science"
+    },
+    {
+        id: 18,
+        courseId: "SE 3390",
+        name: "Software Architecture and Design"
     },
     {
         id: 19,
