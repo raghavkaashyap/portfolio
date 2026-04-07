@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Navbar from "./sections/Navbar.jsx";
 import Home from "./sections/Home.jsx";
 import About from "./sections/About.jsx";
+import Coursework from "./sections/Coursework.jsx";
 import Projects from "./sections/Projects.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
@@ -153,6 +154,7 @@ const App = () => {
             ></Navbar>
             <Home isCandylandModeOn={isCandylandModeOn}></Home>
             <About></About>
+            <Coursework></Coursework>
             <Projects></Projects>
             <Experience></Experience>
             <Contact></Contact>
