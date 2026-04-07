@@ -330,6 +330,21 @@ export const relevantCoursework = [
         courseId: "COMS 3630",
         name: "Introduction to Database Management Systems"
     },
+    {
+        id: 19,
+        courseId: "COMS 4740/5740",
+        name: "Introduction to Machine Learning"
+    },
+    {
+        id: 20,
+        courseId: "SE 4210",
+        name: "Software Analysis and Verification for Safety and Security"
+    },
+    {
+        id: 21,
+        courseId: "SE 4220",
+        name: "Cloud Computing - Software Development"
+    },
 ]
 
 
