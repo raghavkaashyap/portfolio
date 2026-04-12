@@ -362,6 +362,15 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
+        name: 'Visa',
+        pos: 'Software Engineer Intern',
+        duration: 'May 2026 - August 2026',
+        title: "Incoming Summer 2026 (Payment Product Development)",
+        icon: '/assets/Visa_inc_logo.png',
+        animation: 'victory',
+    },
+    {
+        id: 2,
         name: 'John Deere',
         pos: 'Student Software Engineer',
         duration: 'August 2025 - Present',
@@ -370,7 +379,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 2,
+        id: 3,
         name: 'Iowa State University - College of Liberal Arts and Sciences (D4 NRT)',
         pos: 'Undergraduate Research Assistant',
         duration: 'August 2025 - Present',
@@ -379,7 +388,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 3,
+        id: 4,
         name: 'Principal Financial Group',
         pos: 'Software Engineer Intern',
         duration: 'May 2025 - August 2025',
@@ -388,7 +397,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 4,
+        id: 5,
         name: 'Iowa State University - Center for Experience in Learning and Teaching (CELT)',
         pos: 'Session Editor and Recorder III',
         duration: 'January 2024 - May 2025',
