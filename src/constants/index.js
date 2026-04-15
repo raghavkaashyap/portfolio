@@ -382,7 +382,7 @@ export const workExperiences = [
         id: 3,
         name: 'Iowa State University - College of Liberal Arts and Sciences (D4 NRT)',
         pos: 'Undergraduate Research Assistant',
-        duration: 'August 2025 - Present',
+        duration: 'August 2025 - April 2026',
         title: "Machine Unlearning and Predictive Uncertainty",
         icon: '/assets/iowastatelogo.png',
         animation: 'victory',
