@@ -364,7 +364,7 @@ export const workExperiences = [
         id: 1,
         name: 'Visa',
         pos: 'Software Engineer Intern',
-        duration: 'May 2026 - August 2026',
+        duration: 'Incoming May 2026',
         title: "Incoming Summer 2026 (Payment Product Development)",
         icon: '/assets/Visa_inc_logo.png',
         animation: 'victory',
