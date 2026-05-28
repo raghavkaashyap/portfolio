@@ -193,7 +193,6 @@ export const myProjects = [
         "title": "Bomb Detection Robot",
         "desc": "An autonomous bomb detection robot programmed in C, designed to identify hazardous objects using onboard sensors, simulate response actions, and navigate a physical test environment. It uses sensor polling, motor control logic, and decision-making algorithms to enable dynamic obstacle avoidance and real-time threat localization. The project emphasizes embedded systems development and physical system integration.",
         "subdesc": "Built for a constrained embedded environment with tight control loops and deterministic behavior. Features modular sensor drivers, debounced digital inputs, PWM-based motor control, and a finite-state machine for threat scanning, approach, and avoidance routines. Logged telemetry was used to tune thresholds and improve path stability.",
-        "href": "",
         "texture": "/textures/project/project4.mp4",
         "logo": "/assets/roomba.png",
         "logoStyle": {
