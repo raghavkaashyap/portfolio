@@ -72,15 +72,29 @@ const Projects = () => {
                             ))}
                         </div>
 
-                        <a
-                            className="flex items-center gap-2 cursor-pointer text-white-600 hover:shadow-lg hover:shadow-purple-300 p-2 transition-all rounded-lg"
-                            href={currentProject.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <p>Source Code</p>
-                            <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
-                        </a>
+                        <div className="flex items-center gap-3">
+                            <a
+                                className="flex items-center gap-2 cursor-pointer text-white-600 hover:shadow-lg hover:shadow-purple-300 p-2 transition-all rounded-lg"
+                                href={currentProject.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <p>Source Code</p>
+                                <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                            </a>
+
+                            {currentProject.liveLink && (
+                                <a
+                                    className="flex items-center gap-2 cursor-pointer text-white-600 hover:shadow-lg hover:shadow-purple-300 p-2 transition-all rounded-lg"
+                                    href={currentProject.liveLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <p>Live Site</p>
+                                    <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                                </a>
+                            )}
+                        </div>
                     </div>
 
                     <div className="flex justify-between items-center mt-7">

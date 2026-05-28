@@ -40,6 +40,7 @@ export const myProjects = [
             "To enhance user experience, the application offers dynamic visualizations, enabling users to view their spending trends through interactive graphs and charts. This feature provides actionable insights into monthly expenses, helping users identify patterns and make informed financial decisions. The intuitive interface and robust functionality make the Utilities Spend Tracker a practical tool for effective expense management.",
         "subdesc": "The application's key features include PDF bill uploads, automated data parsing with Apache Tika, and the ability to categorize expenses into predefined categories. The visualizations present data in an easily digestible format, such as bar charts and line graphs, ensuring users can quickly grasp their spending trends. The seamless integration of the frontend, backend, and database provides a smooth and efficient user experience, making expense tracking both accessible and engaging.",
         "href": "https://github.com/raghavkaashyap/utilities-spend-tracker",
+        "liveLink": "https://utilities-spend-tracker.vercel.app",
         "texture": "/textures/project/project1.mp4",
         logo: '/assets/project-logo2.png',
         logoStyle: {
